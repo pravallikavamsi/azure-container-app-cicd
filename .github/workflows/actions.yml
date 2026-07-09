@@ -3,7 +3,7 @@ name: Deploy HTML to Azure Container Apps
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   IMAGE_NAME: html-app
